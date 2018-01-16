@@ -4,7 +4,7 @@ if ~isstruct(design) || ~all(isfield(design,{'c','k'}))
     error('simulateSystem:InvalidDesign:ShouldBeStruct', ...
         'The design should be a structure with fields "c" and "k"');
 end
-
+randomVar =  5;
 % Design variables
 c = design.c;
 k = design.k;
