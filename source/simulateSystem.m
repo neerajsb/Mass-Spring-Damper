@@ -1,7 +1,6 @@
 function [x, t] = simulateSystem(design)
 
 if ~isstruct(design) || ~all(isfield(design,{'c','k'}))
-    randomVar =  5;
     error('simulateSystem:InvalidDesign:ShouldBeStruct', ...
         'The design should be a structure with fields "c" and "k"');
 end
