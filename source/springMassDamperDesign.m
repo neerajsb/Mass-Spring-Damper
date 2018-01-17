@@ -8,3 +8,7 @@ end
 
 design.k = 5e6;                  % Spring Constant
 design.c = 2*m*sqrt(design.k/m); % Damping Coefficient to be critically damped
+
+if 0 
+uncoveredCode = 1;
+end
