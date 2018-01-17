@@ -4,6 +4,7 @@ if nargin
   m = mass;
 else
   m = 1500; % Need to know the mass to determine critical damping
+  rand;
 end
 
 design.k = 5e6;                  % Spring Constant
