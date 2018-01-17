@@ -2,6 +2,7 @@ function design = springMassDamperDesign(mass)
 
 if nargin
   m = mass;
+  rand;
 else
   m = 1500; % Need to know the mass to determine critical damping
   rand;
